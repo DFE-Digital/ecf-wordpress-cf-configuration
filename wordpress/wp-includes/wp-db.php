@@ -1622,6 +1622,10 @@ class wpdb {
 				$host = "[$host]";
 			}
 
+			// Included block start
+            mysqli_ssl_set($this->dbh, null, null, null, MYSQL_SSL_CAPATH, null);
+            // Included block end
+
 			if ( WP_DEBUG ) {
 				mysqli_real_connect( $this->dbh, $host, $this->dbuser, $this->dbpassword, null, $port, $socket, $client_flags );
 			} else {

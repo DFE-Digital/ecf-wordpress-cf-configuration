@@ -1,9 +1,9 @@
 ---
 applications:
 - name: ecf-wordpress
-memory: 128M
-path: .
-route: ecf-wordpress-on.london.cloudapps.digital
-buildpack: php_buildpack
-services:
-- ecf-wp-mysql
+  memory: 128M
+  path: .
+  route: ecf-wordpress-on.london.cloudapps.digital
+  buildpack: php_buildpack
+  services:
+    - ecf-wp-mysql
