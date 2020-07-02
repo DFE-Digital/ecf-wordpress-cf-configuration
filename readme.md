@@ -19,6 +19,14 @@ The current deployment has no volume mounted so things like plugins and configur
 
 The guide that was followed to setup this deployment can be found [here](https://www.cloudfoundry.org/blog/install-scale-wordpress-cloud-foundry-2018/)
 
+## Local Development
+
+```bash
+docker-compose up
+```
+
+The `wordpress/wp-content` directory will be automatically mounted and synced.
+
 
 ## ToDo:
 
