@@ -76,6 +76,7 @@ function dolly_css() {
 		margin: 0;
 		font-size: 12px;
 		line-height: 1.6666;
+		color: red;
 	}
 	.rtl #dolly {
 		float: left;
